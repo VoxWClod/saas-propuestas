@@ -1,0 +1,5 @@
+# API Proxy to n8n (Matches vite.config.ts proxy)
+/api/webhook/*  https://n8n-my.opptima.ai/webhook/:splat  200
+
+# SPA Routing (Catch-all for React Router)
+/*  /index.html  200
